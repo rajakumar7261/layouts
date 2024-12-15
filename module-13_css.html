@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-13 | Layouts</title>
+
+    <style>
+
+    .parent_container {
+        width: 800px;
+        height: 720px;
+        border: 5px solid gray;
+        padding: 10px;
+    }
+
+    .heading {
+        background-color: #DDAA02;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .navbar {
+        background-color: #CCCCCC;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .nav-item {
+        background-color: white;
+        border: 1px solid black;
+        padding: 10px 50px;
+        color: #DDAA02;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .main-content {
+        background-color: #808080;
+        height: 70%;
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .small-container {
+        width: 25%;
+        background-color: white;
+        padding: 10px;
+    }
+
+
+    .big-container {
+        width: 50%;
+        background-color: white;
+        padding: 10px; 
+    }
+
+    .footer {
+        background-color: #DDAA02;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    </style>
+</head>
+
+<body>
+    <h1>Day-13 | Layouts</h1>
+
+    <div class="parent_container">
+        <div class="header">
+            <div class="heading">Power Grid Homepage</div>
+            <div class="navbar">
+                <div class="nav-item">Home</div>
+                <div class="nav-item">About</div>
+                <div class="nav-item">Blog</div>
+                <div class="nav-item">Careers</div>
+                <div class="nav-item">Contact Us</div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="small-container">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZGLRq7TRllKuzYpxrvvCGJRSLHAEXGU81GA&s" alt="Horse Image">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae consectetur repellat iste labore
+                    enim perferendis commodi tempora expedita incidunt laudantium.</p>
+                <button>Go Somewhere</button>
+            </div>
+            <div class="small-container">
+                <img src="https://media.istockphoto.com/id/1793439676/photo/horses-run-forward.webp?a=1&b=1&s=612x612&w=0&k=20&c=fYfk0fbEj3JpSIw7_PVSORqUxqs0GH3ASoUsnZ3Ncx0=" alt="Horse Image">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae consectetur repellat iste labore
+                    enim perferendis commodi tempora expedita incidunt laudantium.</p>
+                <button>Click Me</button>
+            </div>
+            <div class="big-container">
+                <img src="https://media.istockphoto.com/id/1793439676/photo/horses-run-forward.webp?a=1&b=1&s=612x612&w=0&k=20&c=fYfk0fbEj3JpSIw7_PVSORqUxqs0GH3ASoUsnZ3Ncx0=" alt="Horse Image">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae consectetur repellat iste labore
+                    enim perferendis commodi tempora expedita incidunt laudantium.</p>
+                <button>Do Something</button>
+            </div>
+        </div>
+
+        <div class="footer">Copyright © 2016</div>
+    </div>
+</body>
+
+</html>
